@@ -213,16 +213,23 @@ width: 40%;
 }
 .btn{
     display: flex;
+    /* margin: 13px; */
+    /* padding: 11px; */
   
 }
-.btn input{
+.btn button{
     color: #fefae0;
      background-color:#d18109; 
      border: none;
      cursor: pointer;
+    margin: 10px;
+    padding: 11px;
+    outline: none;
+    border-radius: 5px;
+
 }
 
-.btn input:hover{
+.btn button:hover{
     color: #fefae0;
     background-color:#eca438; 
     border: none;
