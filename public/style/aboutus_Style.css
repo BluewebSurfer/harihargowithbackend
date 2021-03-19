@@ -1,3 +1,6 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +13,8 @@ body  {
 }
 nav {
     /* background: #000; */
-    background: #283618;
-    color: #fff;
+    background: #2883ce;
+    color: #ade8f4;
     display: flex;
     justify-content: space-between;
 }
@@ -24,12 +27,13 @@ nav .mainMenu li a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #caf0f8;
     font-size: 1rem;
 }
 nav .mainMenu li a:hover {
     /* background: rgb(255,94,0); */
-    background: #606c38;
+    background: #1d629b;
+    color: white;
 
 }
 nav .openMenu {
@@ -85,7 +89,7 @@ nav .logo {
         justify-content: center;
         align-items: center;
         /* background: #000; */
-        background: #283618;
+        background: #2883ce;
 
         transition: top 1s ease;
         display: none;
@@ -122,8 +126,8 @@ nav .logo {
 /* Genesis section  */
 
 .about-title h1{
-    color: #606c38;
-    border: 2px solid #71a139;
+    color: #1f6096bb;
+    border: 2px solid #369ff4;
     margin: 7px;
     padding: 5px;
 
@@ -131,10 +135,11 @@ nav .logo {
 /* content -1  */
 
 .cont-1 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
+    /* border-left: 2px solid #369ff4; */
 
 }
 
@@ -147,6 +152,7 @@ nav .logo {
 .cont-1 p{
     margin: 3px;
     padding: 7px;
+    
 }
 .cont-1 img{
     height: 200px;
@@ -159,7 +165,7 @@ nav .logo {
 /* content -2  */
 
 .cont-2 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
@@ -187,11 +193,10 @@ nav .logo {
 
 /* content -3  */
 .cont-3 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
-
 }
 
 .cont-3{
@@ -215,7 +220,7 @@ nav .logo {
 
 /* content -4  */
 .cont-4 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
@@ -245,7 +250,7 @@ nav .logo {
 
 /* content -5  */
 .cont-5 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
@@ -273,11 +278,10 @@ nav .logo {
 
 /* content -6  */
 .cont-6 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
-
 }
 
 .cont-6{
@@ -300,7 +304,7 @@ nav .logo {
 
 /* content -7  */
 .cont-7 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
@@ -327,7 +331,7 @@ nav .logo {
 
 /* content -8  */
 .cont-8 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
@@ -354,7 +358,7 @@ nav .logo {
 
 /* content -9  */
 .cont-9 h2{
-    background: #606c38;
+    background: #1f6096bb;
     margin: 8px;
     padding: 5px;
     color: white;
@@ -540,14 +544,14 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 1%;
     right: 10%;
     
 }
 .cont-2{
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -565,14 +569,14 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 4%;
     left: 20%;
     
 }
 .cont-3 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -590,7 +594,7 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 12%;
     right: 16%;
@@ -598,7 +602,7 @@ footer
     
 }
 .cont-4 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -616,14 +620,14 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 1%;
     /* right: 10%; */
     
 }
 .cont-5 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -641,7 +645,7 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 1%;
     left: 16%;
@@ -650,7 +654,7 @@ footer
 
 
 .cont-6 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -668,7 +672,7 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 1%;
     right: 15%;
@@ -677,7 +681,7 @@ footer
 
 
 .cont-7 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -695,7 +699,7 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 1%;
     left: 15%;
@@ -703,7 +707,7 @@ footer
 }
 
 .cont-8 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 950px;
 
 }
@@ -721,7 +725,7 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 1%;
     right: 19%;
@@ -729,7 +733,7 @@ footer
 }
 
 .cont-9 {
-    border:  2px solid rgb(0, 255, 191);
+    /* border:  2px solid rgb(0, 255, 191); */
     height: 1050px;
 
 }
@@ -747,7 +751,7 @@ footer
     width: 250px;
     margin: 2px auto;
     padding: 3px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     top: 4%;
     left: 22%;
@@ -756,6 +760,149 @@ footer
 
 
 /* foooter responsive  */
+
+ .contex-1
+ {
+     margin: 10px;
+     padding: 7px;
+     color: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     /* border: 2px solid red; */
+     /* width: 300px; */
+     width: 30%;
+ 
+     
+ }
+ .contex-1 h5{
+     /* display: ;    */
+     /* border: 2px solid salmon; */
+     text-align: center;
+     
+ }
+ 
+ .contex-1 ul {
+ list-style: none;
+ display: block;
+ margin: 2px;
+ padding: 5px;
+ font-size: 11px;
+ }
+ .context-2 ul{
+ list-style: none;
+ margin: 2px;
+ padding: 5px;
+ font-size: 11px;
+ 
+ }
+ 
+ .contex-1 a{
+     /* list-style:none ; */
+     text-decoration: none;
+     color: whitesmoke;
+ 
+ }
+ .contex-1 a:hover{
+     color: wheat;
+ }
+ .icon{
+     /* border: 2px solid red; */
+     /* width: 300px; */
+     width: 15%;
+     margin: 7px auto;
+     padding: 9px;
+     color: whitesmoke;
+    
+ 
+ }
+ 
+ .icon a{
+     text-decoration: none;
+ }
+ .icon a:visited{
+     color: white;
+ }
+ .icon i{
+     margin: 7px;
+     padding: 7px;
+     text-align: center;
+     font-size: 17px;
+ }
+ .icon h5{
+ text-align: center;
+ }
+ 
+ footer p{
+     color: whitesmoke; 
+     margin: 0px 5px 5px 5px;
+     padding: 5px;
+ }
+ footer img{
+     margin: 5px;
+     padding: 5px;
+ }
+ .license{
+     color: white; 
+     /* margin: 5px;
+     padding: 5px; */
+     font-size: 11px;
+ 
+ 
+ }
+ .license{
+     text-align: center;
+ }
+ 
+ .addrs{
+     margin: 2px;
+     padding: 2px;
+     color: whitesmoke;
+     /* border: 2px solid red; */
+     /* width: 300px; */
+     width: 44%;
+     margin: 10px;
+     padding: 5px;
+ 
+ }
+ .addrs h5{
+     text-align: center;
+ 
+ }
+ .addrs ul{
+     list-style: none;
+     margin: 9px;
+     padding: 8px;
+ 
+ }
+ .addrs ul li{
+     text-align: center;
+     margin: 2px;
+     padding: 2px;
+     font-size: 11px;
+ 
+ }
+ .foot-dis{
+     display: flex;
+     margin: 2px;
+     padding: 5px;
+ }
+ footer
+ {
+     height: 400px;
+     /* width: ; */
+     background: rgb(105, 104, 104);
+     /* margin: 5px; */
+     padding: 9px;
+     /* text-align: center;   */
+     /* border: 2px solid black; */
+     
+ }
+ 
+  
+
+
+
+
 
 }
 

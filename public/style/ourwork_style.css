@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Merriweather:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +11,9 @@ body  {
     font-family: 'Arial' , sans-serif;
 }
 nav {
-    /* background: #000; */
-    background: #283618;
-    color: #fff;
+    
+    background: #2883ce;
+    color: #ade8f4;
     display: flex;
     justify-content: space-between;
 }
@@ -27,8 +30,8 @@ nav .mainMenu li a {
     font-size: 1rem;
 }
 nav .mainMenu li a:hover {
-    /* background: rgb(255,94,0); */
-    background: #606c38;
+
+    background: #1d629b;
 
 }
 nav .openMenu {
@@ -38,14 +41,11 @@ nav .openMenu {
     cursor: pointer;
 }
 .mainMenu button{
-    /* color: #bc6c25;
-    padding: 3px;
-    margin: 6px;
-    margin-right: 11px; */
+
     border: none;
     background: none;
     
-    /* font-size: 2rem; */
+ 
 
 }
 .mainMenu button a{
@@ -71,14 +71,17 @@ nav .logo {
     font-size: 25px;
     cursor: pointer;
 }
+
+
 /* ourwork-title-section  */
 .ourwork-title h1{
-    color: #606c38;
-    border: 2px solid #71a139;
+    color: #1f6096bb;
+    border: 2px solid #369ff4;
     margin: 7px;
     padding: 5px;
 }
 .ourwork-title p{
+    font-family: 'Merriweather', serif;
     margin: 7px;
     padding: 5px;
 }
@@ -100,30 +103,31 @@ section{
 }
 
 .worktype-1 h2, .worktype-3 h2, .worktype-5 h2{
-    background: #606c38;
+
     margin: 10px;
     padding: 7px;
+    background: #1f6096bb;
     color: white;
 }
 .worktype-2 h2, .worktype-4 h2, .worktype-6 h2{
-    background: #606c38;
     margin: 10px;
     padding: 7px;
+    background: #1f6096bb;
     color: white;
-    /* justify-content: left; */
-    /* text-align: right; */
 }
 
 .worktype-1 P, .worktype-3 P, .worktype-5 P{
     margin: 7px;
     padding: 5px;
+    font-family: 'Cormorant Unicase', serif;
 }
 .worktype-2 P, .worktype-4 P, .worktype-6 P{
     margin: 7px;
     padding: 5px;
     /* text-align: right; */
     justify-content: left;
-    /* float: right; */
+    font-family: 'Cormorant Unicase', serif;
+    
 
 }
 .text-1{
@@ -304,7 +308,7 @@ footer
         justify-content: center;
         align-items: center;
         /* background: #000; */
-        background: #283618;
+        background: #2883ce;
 
         transition: top 1s ease;
         display: none;
@@ -339,7 +343,7 @@ footer
     }
 
     .text-1{
-        border: 2px solid cyan;
+        /* border: 2px solid cyan; */
         text-align: center;
         margin: auto;
         width: 90%;
@@ -358,7 +362,7 @@ footer
 
 
     .text-2{
-        border: 2px solid cyan;
+        /* border: 2px solid cyan; */
         text-align: center;
         margin: auto;
         width: 90%;

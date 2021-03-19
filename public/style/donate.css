@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Slabo+27px&family=Source+Serif+Pro&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +11,8 @@ body  {
     font-family: 'Arial' , sans-serif;
 }
 nav {
-    
-    background: #283618;
-    color: #fff;
+    background: #2883ce;
+    color: #ade8f4;
     display: flex;
     justify-content: space-between;
 }
@@ -22,12 +25,12 @@ nav .mainMenu li a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #caf0f8;
     font-size: 1rem;
 }
 nav .mainMenu li a:hover {
-    /* background: rgb(255,94,0); */
-    background: #606c38;
+    background: #1d629b;
+    color: white;
 
 }
 nav .openMenu {
@@ -78,11 +81,14 @@ nav .logo {
 .poster{
 margin: 12px;
 padding: 9px;
-border: 2px solid rgb(57, 82, 25);
+border: 2px solid #198eee;
 height: 400px;
-background: url("/image/3donate.jpg") no-repeat;
+/* background: url("/image/don"); */
+background-image: url("/image/Donateus.jpg");
+ /* background: #020202b3; */
 background-size:cover;
 opacity: 0.9;
+object-fit: cover;
 }
 .poster h2{
     color: white;
@@ -105,11 +111,13 @@ section h2{
     margin: 5px;
     padding: 4px;
     font-size: 37px;
-    color:#283618;
+    color:#369ff4;
 }
 section p{
     margin: 11px;
     padding: 7px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.3rem;
 }
 
 .details{
@@ -150,6 +158,12 @@ section p{
 .conclusion h3{
     color: #bc6c25;
 }
+.info p, .conclusion p{
+    font-family: 'Slabo 27px', serif;
+}
+
+
+
 
 /* footer-section  */
 .contex-1
@@ -297,7 +311,7 @@ footer
         justify-content: center;
         align-items: center;
       
-        background: #283618;
+        background: #2883ce;
 
         transition: top 1s ease;
         display: none;
@@ -348,7 +362,7 @@ footer
         padding: 9px;
         border: 2px solid rgb(57, 82, 25);
         height: 400px;
-        background: url("image/3donate.jpg") no-repeat;
+        /* background: url("i"); */
         background-size:cover;
         opacity: 0.9;
         }

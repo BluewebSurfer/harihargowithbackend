@@ -63,6 +63,10 @@ app.get("/",function(req,res){
     res.render("home");
 });
 
+app.get("/ourteam",function(req,res){
+    res.render("ourteam");
+});
+
 app.get("/aboutus",function(req,res){
     res.render("aboutus");
 });
@@ -89,7 +93,7 @@ app.get("/privacy",function(req,res){
 });
 
 app.get("/volenteer",function(req,res){
-    res.render("volenteer");
+    res.render("voleenteers");
 });
 
 
